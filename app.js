@@ -113,3 +113,11 @@ productButton.addEventListener("click", () =>{
 close.addEventListener("click", () =>{
     payment.style.display = "none"
 })
+
+const payButton = document.querySelector(".payButton");
+
+payButton.addEventListener("click", () =>{
+    
+    payment.style.display = "none"
+    alert("success");
+})

@@ -267,7 +267,7 @@ label{
     font-weight: 400;
 }
 .payInput{
-    padding: 10px;
+    padding: 5px;
     margin: 10px 0px;
     border: 1px solid lightgray
 }
@@ -284,6 +284,7 @@ label{
 .cardInfo{
     display: flex;
     justify-content: space-between;
+
 }
 .sm{
     width: 30%;
@@ -306,6 +307,7 @@ label{
      color: white;
      cursor: pointer;
 
+    
 }
 .close{
     width: 23px;
