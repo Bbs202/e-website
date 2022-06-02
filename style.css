@@ -426,7 +426,7 @@ footer{
     font-size: 14px;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 500px){
     nav{
         padding: 20px;
     }
@@ -445,7 +445,7 @@ footer{
         clip-path: none;
     }
     .sliderImg{
-        width: 90%;
+        width: 70%;
     }
     .sliderTitle{
         display: none;
@@ -462,7 +462,7 @@ footer{
         right: 0;
         top: unset;
         width: 24%;
-        margin-left: 270px;
+        margin-left: 230px;
         font-size: 12px;
     }
     .features{
@@ -472,11 +472,17 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     .productImg{
-        width: 80%;
+        width: 50%; 
+    }
+    .productIm{
+        display: flex;
         align-items: center;
-        justify-content: center;
+        margin-left: 30px;
+        
     }
     .productDetails{
         width: 100%;
@@ -488,10 +494,17 @@ footer{
         text-align: center;
         position: relative;
         top: 0;
+        font-size: 12px;
     }
     .productTitle{
-        font-size: 50px;
+        font-size: 30px;
         margin: 0;
+        padding: 3px;
+    }
+    .productDesc{
+        text-align: center;
+        font-size: 18px;
+        margin-left: 60px;
     }
     .gallery{
         display: none;
